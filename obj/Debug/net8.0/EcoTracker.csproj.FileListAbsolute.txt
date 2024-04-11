@@ -56,3 +56,5 @@ C:\Users\cyrix\OneDrive\Documents\Github\EcoTracker\obj\Debug\net8.0\refint\EcoT
 C:\Users\cyrix\OneDrive\Documents\Github\EcoTracker\obj\Debug\net8.0\EcoTracker.pdb
 C:\Users\cyrix\OneDrive\Documents\Github\EcoTracker\obj\Debug\net8.0\EcoTracker.genruntimeconfig.cache
 C:\Users\cyrix\OneDrive\Documents\Github\EcoTracker\obj\Debug\net8.0\ref\EcoTracker.dll
+C:\Users\cyrix\OneDrive\Documents\Github\EcoTracker\obj\Debug\net8.0\EcoTracker.sourcelink.json
+C:\Users\cyrix\OneDrive\Documents\Github\EcoTracker\obj\Debug\net8.0\scopedcss\Components\Pages\Calculator.razor.rz.scp.css

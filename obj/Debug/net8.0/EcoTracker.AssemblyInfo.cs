@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EcoTracker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+416ee44fe34b05c4debba68c4e1c1b70e372a106")]
 [assembly: System.Reflection.AssemblyProductAttribute("EcoTracker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EcoTracker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
