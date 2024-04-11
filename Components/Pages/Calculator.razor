@@ -1,0 +1,100 @@
+﻿@page "/calculator"
+@rendermode InteractiveServer
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+
+<PageTitle>Carbon Footprint Calculator</PageTitle>
+<h2 class="space-below1">Carbon Footprint Calculator</h2>
+
+
+<h4>Select number of people in your home</h4>
+<select class="form-select space-below1" id="people" name="people" aria-label="NumOfPeople" @bind="selectedPeople">
+    @for (int i = 1; i <= 10; i++)
+    {
+        <option value="@i">@i</option>
+    }
+</select>
+
+<br>
+<h3 class="space-below1">House</h3>
+<div class="row">
+    <div class="col">
+        <h4>Electricity</h4>
+        <input type="number" class="form-control space-below1" placeholder="kWh" aria-label="Electricity" @bind="selectedElectricity" />
+        <h4>LPG</h4>
+        <input type="number" class="form-control space-below1" placeholder="Cylinder" aria-label="LPG" @bind="selectedLPG" />
+        <h4>Coal</h4>
+        <input type="number" class="form-control space-below1" placeholder="Kg" aria-label="Coal" @bind="selectedCoal" />
+    </div>
+</div>
+
+<br>
+<h3 class="space-below1">Transportation</h3>
+<div class="row">
+    <div class="col">
+        <h4>Petrol</h4>
+        <input type="number" class="form-control space-below1" placeholder="Litres" aria-label="Petrol" @bind="selectedPetrol" />
+        <h4>Diesel</h4>
+        <input type="number" class="form-control space-below1" placeholder="Litres" aria-label="Diesel" @bind="selectedDiesel" />
+        <h4>CNG</h4>
+        <input type="number" class="form-control space-below1" placeholder="Kg" aria-label="CNG" @bind="selectedCNG" />
+        <h4>Auto LPG</h4>
+        <input type="number" class="form-control space-below1" placeholder="Kg" aria-label="AutoLPG" @bind="selectedAutoLPG" />
+    </div>
+</div>
+
+<button class="btn btn-primary space-below" @onclick="CalculateEmissions">Calculate</button>
+
+<h3>Household Footprint: @HouseEmission kgCO2e</h3>
+<h3>Household Footprint Per Person: @HouseholdEmissionPerPerson kgCO2e</h3>
+<h3>Transportation Emission: @TransportEmission kgCO2e</h3>
+<h3>Total Emission: @TotalEmission </h3>
+
+@code {
+    int selectedPeople = 1;
+    int selectedElectricity = 0;
+    int selectedLPG = 0;
+    int selectedCoal = 0;
+    double HouseEmission = 0;
+    double CalculateHouseEmission()
+    {
+        HouseEmission = (selectedElectricity * 0.93) + (selectedLPG * 41.88) + (selectedCoal * 2.87);
+        return Math.Round(HouseEmission, 2);
+    }
+
+    int selectedPetrol = 0;
+    int selectedDiesel = 0;
+    int selectedCNG = 0;
+    int selectedAutoLPG = 0;
+    double TransportEmission = 0;
+    double CalculateTransportEmission()
+    {
+        TransportEmission = (selectedPetrol * 2.33) + (selectedDiesel * 2.66) + (selectedCNG * 2.73) + (selectedAutoLPG * 2.95);
+        return Math.Round(TransportEmission, 2);
+    }
+    void CalculateEmissions()
+    {
+        CalculateHouseEmission();
+        CalculateTransportEmission();
+        CalculateTotalEmission();
+        CalculateHouseholdEmissionPerPerson();
+    }
+    double TotalEmission = 0;
+    double CalculateTotalEmission()
+    {
+        TotalEmission = HouseEmission + TransportEmission;
+        return TotalEmission;
+    }
+    double HouseholdEmissionPerPerson = 0;
+    double CalculateHouseholdEmissionPerPerson()
+    {
+
+        HouseholdEmissionPerPerson = HouseEmission / selectedPeople;
+        return Math.Round(HouseholdEmissionPerPerson, 2);
+    }
+
+
+
+}

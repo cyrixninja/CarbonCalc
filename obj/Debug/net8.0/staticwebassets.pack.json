@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\cyrix\\OneDrive\\Documents\\Test\\CarbonCalc\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CarbonCalc.bundle.scp.css",
+      "PackagePath": "staticwebassets\\CarbonCalc.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\cyrix\\OneDrive\\Documents\\Test\\CarbonCalc\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\cyrix\\OneDrive\\Documents\\Test\\CarbonCalc\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\cyrix\\OneDrive\\Documents\\Test\\CarbonCalc\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\cyrix\\OneDrive\\Documents\\Test\\CarbonCalc\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CarbonCalc.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.CarbonCalc.props",
+      "PackagePath": "build\\CarbonCalc.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.CarbonCalc.props",
+      "PackagePath": "buildMultiTargeting\\CarbonCalc.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.CarbonCalc.props",
+      "PackagePath": "buildTransitive\\CarbonCalc.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
