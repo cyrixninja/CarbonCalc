@@ -1,0 +1,2 @@
+# CarbonCalc
+CarbonCalc is a simple calculator that calculates the carbon footprint of a user based on their daily activities. The user can input the number of miles they drive, the number of hours they fly, and the number of hours they spend in a car. The calculator will then calculate the user's carbon footprint based on the average carbon emissions of these activities. The calculator also provides tips on how to reduce carbon emissions and live a more sustainable lifestyle.

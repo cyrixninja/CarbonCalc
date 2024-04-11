@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cyrix\\OneDrive\\Documents\\Test\\CarbonCalc\\CarbonCalc.csproj",
+      "projectUniqueName": "C:\\Users\\cyrix\\OneDrive\\Documents\\Github\\CarbonCalc\\CarbonCalc.csproj",
       "projectName": "CarbonCalc",
-      "projectPath": "C:\\Users\\cyrix\\OneDrive\\Documents\\Test\\CarbonCalc\\CarbonCalc.csproj",
+      "projectPath": "C:\\Users\\cyrix\\OneDrive\\Documents\\Github\\CarbonCalc\\CarbonCalc.csproj",
       "packagesPath": "C:\\Users\\cyrix\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cyrix\\OneDrive\\Documents\\Test\\CarbonCalc\\obj\\",
+      "outputPath": "C:\\Users\\cyrix\\OneDrive\\Documents\\Github\\CarbonCalc\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\cyrix\\AppData\\Roaming\\NuGet\\NuGet.Config",

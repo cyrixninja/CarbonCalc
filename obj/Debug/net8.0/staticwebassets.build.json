@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2Lld39rwxGCNhsCEm5NNWfXjSF6+WQAKIyuJaPOgWVs=",
+  "Hash": "bCT+pWIB5+IjsA9D6ce/F+nRzk4gxCljqfAXHC9oQNg=",
   "Source": "CarbonCalc",
   "BasePath": "_content/CarbonCalc",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "CarbonCalc\\wwwroot",
       "Source": "CarbonCalc",
-      "ContentRoot": "C:\\Users\\cyrix\\OneDrive\\Documents\\Test\\CarbonCalc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cyrix\\OneDrive\\Documents\\Github\\CarbonCalc\\wwwroot\\",
       "BasePath": "_content/CarbonCalc",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\cyrix\\OneDrive\\Documents\\Test\\CarbonCalc\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CarbonCalc.styles.css",
+      "Identity": "C:\\Users\\cyrix\\OneDrive\\Documents\\Github\\CarbonCalc\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CarbonCalc.styles.css",
       "SourceId": "CarbonCalc",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\cyrix\\OneDrive\\Documents\\Test\\CarbonCalc\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\cyrix\\OneDrive\\Documents\\Github\\CarbonCalc\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/CarbonCalc",
       "RelativePath": "CarbonCalc.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\cyrix\\OneDrive\\Documents\\Test\\CarbonCalc\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CarbonCalc.styles.css"
+      "OriginalItemSpec": "C:\\Users\\cyrix\\OneDrive\\Documents\\Github\\CarbonCalc\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CarbonCalc.styles.css"
     },
     {
-      "Identity": "C:\\Users\\cyrix\\OneDrive\\Documents\\Test\\CarbonCalc\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CarbonCalc.bundle.scp.css",
+      "Identity": "C:\\Users\\cyrix\\OneDrive\\Documents\\Github\\CarbonCalc\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CarbonCalc.bundle.scp.css",
       "SourceId": "CarbonCalc",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\cyrix\\OneDrive\\Documents\\Test\\CarbonCalc\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\cyrix\\OneDrive\\Documents\\Github\\CarbonCalc\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/CarbonCalc",
       "RelativePath": "CarbonCalc.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\cyrix\\OneDrive\\Documents\\Test\\CarbonCalc\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CarbonCalc.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\cyrix\\OneDrive\\Documents\\Github\\CarbonCalc\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CarbonCalc.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\cyrix\\OneDrive\\Documents\\Test\\CarbonCalc\\wwwroot\\app.css",
+      "Identity": "C:\\Users\\cyrix\\OneDrive\\Documents\\Github\\CarbonCalc\\wwwroot\\app.css",
       "SourceId": "CarbonCalc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cyrix\\OneDrive\\Documents\\Test\\CarbonCalc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cyrix\\OneDrive\\Documents\\Github\\CarbonCalc\\wwwroot\\",
       "BasePath": "_content/CarbonCalc",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Users\\cyrix\\OneDrive\\Documents\\Test\\CarbonCalc\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\cyrix\\OneDrive\\Documents\\Github\\CarbonCalc\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "CarbonCalc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cyrix\\OneDrive\\Documents\\Test\\CarbonCalc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cyrix\\OneDrive\\Documents\\Github\\CarbonCalc\\wwwroot\\",
       "BasePath": "_content/CarbonCalc",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\cyrix\\OneDrive\\Documents\\Test\\CarbonCalc\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\cyrix\\OneDrive\\Documents\\Github\\CarbonCalc\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "CarbonCalc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cyrix\\OneDrive\\Documents\\Test\\CarbonCalc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cyrix\\OneDrive\\Documents\\Github\\CarbonCalc\\wwwroot\\",
       "BasePath": "_content/CarbonCalc",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\cyrix\\OneDrive\\Documents\\Test\\CarbonCalc\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\cyrix\\OneDrive\\Documents\\Github\\CarbonCalc\\wwwroot\\favicon.png",
       "SourceId": "CarbonCalc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cyrix\\OneDrive\\Documents\\Test\\CarbonCalc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cyrix\\OneDrive\\Documents\\Github\\CarbonCalc\\wwwroot\\",
       "BasePath": "_content/CarbonCalc",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
@@ -129,6 +129,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "C:\\Users\\cyrix\\OneDrive\\Documents\\Github\\CarbonCalc\\wwwroot\\images\\carboncalc.gif",
+      "SourceId": "CarbonCalc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\cyrix\\OneDrive\\Documents\\Github\\CarbonCalc\\wwwroot\\",
+      "BasePath": "_content/CarbonCalc",
+      "RelativePath": "images/carboncalc.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\carboncalc.gif"
     }
   ]
 }

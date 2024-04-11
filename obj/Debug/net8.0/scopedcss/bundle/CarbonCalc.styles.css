@@ -213,3 +213,19 @@ main[b-iwdrmjl0uw] {
 .space-below1[b-5bd7w05ll5] {
     margin-bottom: 1.5em;
 }
+/* _content/CarbonCalc/Components/Pages/Home.razor.rz.scp.css */
+.centered-title[b-f0rh0toir9] {
+    text-align: center;
+    color: black;
+    font-size: 7em;
+}
+.centered-image[b-f0rh0toir9] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.centered-txt[b-f0rh0toir9] {
+    text-align: center;
+    color: black;
+    font-size: 5em;
+}
