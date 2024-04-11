@@ -1,0 +1,25 @@
+﻿@page "/calculator"
+@rendermode InteractiveServer
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<PageTitle>Carbon Footprint Calculator</PageTitle>
+<h2>Carbon Footprint Calculator</h2>
+
+
+<h4>Select number of people in your home</h4>
+<select class="form-select" id="people" name="people" aria-label="NumOfPeople" @bind="selectedPeople">
+    @for (int i = 1; i <= 10; i++)
+    {
+        <option value="@i">@i</option>
+    }
+</select>
+
+<p>People Selcted : @selectedPeople </p>
+
+
+@code {
+    int selectedPeople = 1;
+
+}
